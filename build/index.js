@@ -1,0 +1,1 @@
+!function(){"use strict";const e=document.querySelector(".whatsapp-button"),t=document.querySelector(".chat_box"),c=document.querySelector(".subtitle_box"),o=document.querySelector(".bulet_chat");e.addEventListener("click",(()=>{t.classList.toggle("chat_box--disable"),setTimeout((()=>{c.innerHTML="En línea",o.classList.add("bulet_chat--active")}),2e3)}))}();
